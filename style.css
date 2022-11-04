@@ -1,0 +1,66 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+text-align: center;
+background: url(img/project01.jpg) no-repeat center center/ cover;
+}
+
+.container{
+  width: 550px;
+  height: 500px;
+  
+}
+
+.header{
+  font-size: 1.4rem;
+  color: #fff;
+  background-color: rgb(39, 37, 37);
+  border: solid 3px #fff;
+  border-radius: 7px;
+  padding: 8px;
+  width: 90%;
+  margin: 25px auto;
+  box-shadow: 0 0 5px;
+}
+.main-content{
+  background-color: #fff;
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+  padding: 50px 40px;
+  box-shadow: 0 0 15px;
+}
+.main-content .text-area{
+  font-size: 1.7rem;
+  line-height: 1.5;
+  
+}
+.main-content .author{
+  font-size: 2rem;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.main-content .button-area button{
+
+  background-color: rgb(39, 37, 37);
+  color: #fff;
+  font-size: 1.3rem;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 6px;
+}
+.main-content .button-area button:active{
+  background-color: rgb(177, 43, 43);
+}
+
